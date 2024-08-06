@@ -1,0 +1,6 @@
+[package]
+name = "naoki_test_publish"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
