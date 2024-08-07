@@ -4,4 +4,4 @@ version = 3
 
 [[package]]
 name = "naoki_test_publish"
-version = "0.2.3"
+version = "0.2.4"
