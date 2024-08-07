@@ -65,7 +65,7 @@ jobs:
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
         asset_path: target/release/naoki_test_publish
-        asset_name: naoki_test_publish
+        asset_name: naoki_test_publish${{ github.ref }}
         asset_content_type: application/octet-stream
 
   publish-crates:
